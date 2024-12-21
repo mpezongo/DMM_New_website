@@ -1,7 +1,8 @@
-import { MdSubject } from "react-icons/md";
+import { MdSubject, MdOutlineArrowRightAlt } from "react-icons/md";
 
 const icons = {
-    MdSubject
+    MdSubject,
+    MdOutlineArrowRightAlt
 }
 
 export default icons
