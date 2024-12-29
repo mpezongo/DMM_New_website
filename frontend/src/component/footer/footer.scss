@@ -1,0 +1,157 @@
+@import "../../styles.scss";
+
+@media only screen and (min-width: 1120px){
+    @include themify($themes){
+
+        .footer{
+            position: relative;
+            width: 80%;
+            max-width: 1030px;
+            height: 300px;
+            margin: 50px auto 0px auto;
+            .tel{
+                display: none;
+            }
+            .footer-content{
+                display: flex;
+                width: 80%;
+                max-width: 1030px;
+                margin: 0px auto 0px auto;
+                justify-content: center;
+                gap: 100px;
+                .left{
+                    color: themed('textColor');
+                    span{
+                        font-size: 25px;
+                        font-family: "Poppins";
+                    }
+                    p{
+                        font-size: "Inter";
+                        font-size: 16px;
+                        position: relative;
+                        top: -10px;
+                    }
+                }
+                .right{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    .middle-content{
+                        text-decoration: none;
+                        color: themed('textColor');
+                    }
+                }
+            }
+        
+        }
+    }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1119px){
+    @include themify($themes){
+
+        .footer{
+            position: relative;
+            width: 760px;
+            height: 300px;
+            margin: 50px auto 0px auto;
+            .tel{
+                display: none;
+            }
+            .footer-content{
+                display: flex;
+                width: 700px;
+                margin: 0px auto 0px auto;
+                justify-content: center;
+                gap: 100px;
+                .left{
+                    color: themed('textColor');
+                    span{
+                        font-size: 25px;
+                        font-family: "Poppins";
+                    }
+                    p{
+                        font-size: "Inter";
+                        font-size: 16px;
+                        position: relative;
+                        top: -10px;
+                    }
+                }
+                .right{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    .middle-content{
+                        text-decoration: none;
+                        color: themed('textColor');
+                    }
+                }
+            }
+        
+        }
+    }
+}
+
+@media only screen and (max-width: 980px){
+    @include themify($themes){
+
+        .footer{
+            position: relative;
+            width: 90%;
+            height: 250px;
+            margin: 50px auto 0px auto;
+            .ordinateur{
+                display: none;
+            }
+            .footer-content{
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                margin: 0px auto 0px auto;
+                .bottom{
+                    display: flex;
+                    gap: 50px;
+                    position: relative;
+                    top: 20px;
+                    // background-color: red;
+                    justify-content: center;
+                    .left{
+                        color: themed('textColor');
+                        span{
+                            font-size: 25px;
+                            font-family: "Poppins";
+                        }
+                        p{
+                            font-size: "Inter";
+                            font-size: 16px;
+                            position: relative;
+                            top: -10px;
+                        }
+                    }
+                    .right{
+                        .middle-content{
+                            text-decoration: none;
+                            color: themed('textColor');
+                            position: relative;
+                            top: 20px;
+                        }
+                    }
+                }
+                .top{
+                    position: relative;
+                    display: flex;;
+                    justify-content: center;
+                    gap: 20px;
+                    .middle-content{
+                        text-decoration: none;
+                        color: themed('textColor');
+                    }
+                }
+            }
+        
+        }
+    }
+}
