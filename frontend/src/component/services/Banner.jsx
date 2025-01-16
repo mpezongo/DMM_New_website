@@ -4,13 +4,13 @@ import icons from "../../constant/icons";
 
 function Banner() {
     return (
-        <div className="w-full flex justify-center bg-gray-200">
-            <div className='w-full max-w-[1200px]  h-auto mt-40 flex flex-col'>
-                <img src={images.D7} alt="" className=" h-96 object-cover " />
-                <div className="flex flex-col gap-8">
+        <div className="w-full  flex justify-center mt-40">
+            <div className='w-full  flex flex-col relative'>
+                <img src={images.bg_services} alt="" className="w-full h-3/4 object-cover " /> 
+                <div className="w-3/4 flex flex-col gap-8 absolute top-12 left-1/2 transform -translate-x-1/2">
                     <p className="flex gap-1 text-xl">
                         <h2 className="text-red-500 font-bold">DevMasterMind </h2>
-                        <span> le meilleur moyen de digitaliser votre entreprise</span>
+                        <span className="text-white"> le meilleur moyen de digitaliser votre entreprise</span>
                     </p>
 
                     <form action="" className="flex gap-4 justify-evenly items-center bg-white p-2">
@@ -43,7 +43,7 @@ function Banner() {
                         <button className="bg-primary text-white font-bold px-5 py-2">Envoyer</button>
                     </form>
 
-                    <div className="bg-white p-6 mb-8">
+                    <div className="bg-white p-6 shadow-lg">
                         <div className="bg-red-100 p-6 flex flex-col gap-6">
                             <h4 className="text-lg font-bold">Une question ? Un projet ?</h4>
                             <p>Contacter nos services en envoyant vos demandes via le formulaire ou votre espace personnalisé</p>
