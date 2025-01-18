@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../component/navbar";
 import Footer from "../component/footer";
 import img from "../constant/images";
+import icons from '../constant/icons';
 
 export default function Offres() {
   return (
@@ -54,27 +55,28 @@ export default function Offres() {
                     <p className="text-4xl font-bold text-blue-900">300.000F</p>
                     <ul className="mt-6 space-y-2 text-left">
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Jusqu'à 7 pages
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         12 emails professionnels
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Référencement SEO
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                        
+                        <icons.HiOutlineX className='mr-2 font-bold text-red-500 text-xl' />
                         Mode Dark
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                      <icons.HiOutlineX className='mr-2 font-bold text-red-500 text-xl' />
                         Maintenance incluse
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                      <icons.HiOutlineX className='mr-2 font-bold text-red-500 text-xl' />
                         Fonctions personnalisées avancées
                       </li>
                     </ul>
@@ -96,27 +98,27 @@ export default function Offres() {
                     <p className="text-4xl font-bold text-blue-900">450.000F</p>
                     <ul className="mt-6 space-y-2 text-left">
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Jusqu'à 15 pages
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         20 emails professionnels
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Référencement SEO avancé
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Mode Dark
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                      <icons.HiOutlineX className='mr-2 font-bold text-red-500 text-xl' />
                         Maintenance incluse
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                      <icons.HiOutlineX className='mr-2 font-bold text-red-500 text-xl' />
                         Fonctions personnalisées avancées
                       </li>
                     </ul>
@@ -138,27 +140,27 @@ export default function Offres() {
                     <p className="text-4xl font-bold text-blue-900">800.000F</p>
                     <ul className="mt-6 space-y-2 text-left">
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Pages illimitées
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Emails illimités
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Référencement SEO Premium
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Mode Dark
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-green-500">✓</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Maintenance incluse
                       </li>
                       <li className="flex items-center">
-                        <span className="mr-2 font-bold text-red-500">✗</span>
+                      <icons.HiCheck className='mr-2 font-bold text-green-500 text-xl' />
                         Fonctions personnalisées avancées
                       </li>
                     </ul>
@@ -247,6 +249,7 @@ export default function Offres() {
         </body>
 
         <Footer />
+  
       </div>
     </div>
   );

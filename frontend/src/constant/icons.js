@@ -3,6 +3,7 @@ import { RiNotificationBadgeFill } from "react-icons/ri";
 import { BiSolidNotification } from "react-icons/bi";
 import { HiArrowLongRight, HiOutlineCube } from "react-icons/hi2";
 import { TbOval } from "react-icons/tb";
+import { HiCheck,HiOutlineX } from "react-icons/hi";
 
 const icons = {
     MdSubject,
@@ -11,7 +12,9 @@ const icons = {
     BiSolidNotification,
     HiArrowLongRight,
     TbOval,
-    HiOutlineCube
+    HiOutlineCube,
+    HiCheck,
+    HiOutlineX
 }
 
 export default icons
