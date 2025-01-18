@@ -10,7 +10,7 @@ export default function Navbar() {
         <img src={img.logo} alt="logo de devmastermind" className='w-12'/>
       </div>
       <div className='w-3/5 h-full flex justify-center items-center gap-4'>
-        <NavLink className="w-1/5 flex justify-center items-center font-bold relative group">
+        <NavLink className="w-1/5 flex justify-center items-center font-bold relative group" to="/services">
             <span>Nos services</span>
             <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-0 h-[2px] bg-black transition-all duration-300 group-hover:w-[75%]"></div>
         </NavLink>
