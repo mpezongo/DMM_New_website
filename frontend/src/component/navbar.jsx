@@ -5,7 +5,7 @@ import icons from '../constant/icons'
 
 export default function Navbar() {
   return (
-    <div className='flex justify-center items-center w-full max-w-[1200px] h-20 rounded-full shadow-sm shadow-black fixed top-20 bg-white transform -translate-x-1/2 -translate-y-1/2 left-1/2'>
+    <div className='z-10 flex justify-center items-center w-full max-w-[1200px] h-20 rounded-full shadow-sm shadow-black fixed top-20 bg-white transform -translate-x-1/2 -translate-y-1/2 left-1/2'>
       <div className='w-1/5 h-full flex justify-start items-center pl-10'>
         <img src={img.logo} alt="logo de devmastermind" className='w-12'/>
       </div>
