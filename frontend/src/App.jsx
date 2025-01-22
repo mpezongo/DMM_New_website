@@ -3,6 +3,8 @@ import { createBrowserRouter,RouterProvider } from "react-router-dom";
 import Home from "./page/Home";
 import Blog from "./page/Blog";
 import ArticleDetail from "./component/ArticleDetail";
+import Offres from "./page/Offres";
+import Services from "./page/Services";
 
 function App() {
   const path = createBrowserRouter([
@@ -15,6 +17,14 @@ function App() {
     {
       path:'/article/:id',
       element: <ArticleDetail />
+    },
+    {
+      path:'/offres',
+      element: <Offres />
+    },
+    {
+      path:'/services',
+      element: <Services />
     }
   ])
   return (
