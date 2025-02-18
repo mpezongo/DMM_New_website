@@ -9,10 +9,9 @@ function Services() {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="flex align-center flex-col w-full  mb-12 mt-28 m-4">
+            <div className="w-full flex flex-col align-center gap-12 p-4 mt-32  mb-12">
                 <Banner></Banner>
                 <Solutions></Solutions>
-                <hr className="my-12 w-0"></hr>
                 <Missions></Missions>
             </div>
             <Footer></Footer>
