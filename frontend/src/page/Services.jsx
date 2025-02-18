@@ -9,7 +9,7 @@ function Services() {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="max-w-[1200px] m-auto mb-12">
+            <div className="flex align-center flex-col w-full  mb-12 mt-28 m-4">
                 <Banner></Banner>
                 <Solutions></Solutions>
                 <hr className="my-12 w-0"></hr>
