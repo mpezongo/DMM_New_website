@@ -12,7 +12,7 @@ export default function Offres() {
             className="relative bg-cover bg-center h-[500px] w-full mt-[120px]"
           >
             <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-            <div className="relative z-10 flex flex-col items-center justify-center h-full px-4 text-center text-white">
+            <div className="relative flex flex-col items-center justify-center h-full px-4 text-center text-white">
              
               <div className="mb-6">
                 <img src={img.logo} alt="Logo" className="w-32 mx-auto" />

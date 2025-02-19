@@ -10,8 +10,8 @@ export default function Navbar() {
   }
 
   return (
-    <div className='w-full bg-transparent px-2 md:px-0 fixed top-12 md:top-20 max-w-[1200px] h-14 md:h-20 -translate-x-1/2 -translate-y-1/2 left-1/2'>
-      <div className='z-10 relative flex justify-between md:justify-center items-center w-full max-w-[1200px] h-14 md:h-20 rounded-full shadow-sm shadow-black bg-white transform '>
+    <div className='w-full z-10 bg-transparent px-2 md:px-0 fixed top-12 md:top-20 max-w-[1200px] h-14 md:h-20 -translate-x-1/2 -translate-y-1/2 left-1/2'>
+      <div className=' relative flex justify-between md:justify-center items-center w-full max-w-[1200px] h-14 md:h-20 rounded-full shadow-sm shadow-black bg-white transform '>
         <div className='w-1/5 h-full md:hidden flex justify-start items-center pl-5 cursor-pointer' onClick={handleShowMenu}  >
           <icons.IoMenu className='text-3xl'/>
         </div>
