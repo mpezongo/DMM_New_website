@@ -9,10 +9,12 @@ function Services() {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="w-full flex flex-col align-center gap-12 p-4 mt-32  mb-12">
-                <Banner></Banner>
-                <Solutions></Solutions>
-                <Missions></Missions>
+            <div className="w-full flex justify-center mt-32 mb-12 p-4">
+                <div className="flex flex-col gap-12 max-w-[1200px]">
+                    <Banner></Banner>
+                    <Solutions></Solutions>
+                    <Missions></Missions>
+                </div>
             </div>
             <Footer></Footer>
         </div>
