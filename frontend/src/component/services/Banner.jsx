@@ -50,10 +50,10 @@ function Banner() {
                                 <icons.MdMailOutline className="text-xl"></icons.MdMailOutline>
                                 <span className="text-md">Par formulaire</span>
                             </button>
-                            <button className="bg-primary text-white font-bold px-2 py-1 flex justify-center items-center gap-1 whitespace-nowrap">
+                            {/* <button className="bg-primary text-white font-bold px-2 py-1 flex justify-center items-center gap-1 whitespace-nowrap">
                                 <icons.RiAccountCircleLine className="text-xl"></icons.RiAccountCircleLine>
                                 <span className="text-md">Par compte</span>
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                     <div className="flex flex-col gap-8 flex-wrap items-center text-md m-4">

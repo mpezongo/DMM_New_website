@@ -9,7 +9,7 @@ function Services() {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="w-full flex justify-center mt-32 mb-12 p-4">
+            <div className="w-full flex justify-center mt-32 mb-12 p-2">
                 <div className="flex flex-col gap-12 max-w-[1200px]">
                     <Banner></Banner>
                     <Solutions></Solutions>
