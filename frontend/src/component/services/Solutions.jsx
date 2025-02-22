@@ -36,7 +36,7 @@ function Solutions() {
     ]
     return (
         <section className="w-full flex flex-col gap-8">
-            <h2 className="text-2xl font-bold text-primary-10">Nos Solutions</h2>
+            <h2 className="text-2xl font-bold text-primary-10 my-4 text-center">Nos Services</h2>
             <div className="flex justify-evenly  gap-4 flex-wrap">
                 {
                     Solutions.map((solution) =>

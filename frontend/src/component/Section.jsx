@@ -27,7 +27,7 @@ const Section = ({ section }) => {
                 {articles.slice(0, visibleArticles).map((article, index) => (
                     <div
                         key={index}
-                        className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md p-4 gap-6"
+                        className="flex flex-col md:flex-row items-center bg-white rounded-lg shadow-md p-4 gap-6 transform transition duration-300 hover:scale-105 hover:shadow-lg"
                     >
                         <Link to={`/article/${article.id}`} className="flex gap-6">
                             <div className="md:w-1/3">

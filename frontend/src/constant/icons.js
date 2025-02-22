@@ -3,6 +3,7 @@ import { RiNotificationBadgeFill } from "react-icons/ri";
 import { BiSolidNotification } from "react-icons/bi";
 import { HiArrowLongRight, HiOutlineCube } from "react-icons/hi2";
 import { TbOval } from "react-icons/tb";
+import { HiCheck,HiOutlineX } from "react-icons/hi";
 
 import { RiAccountCircleLine, RiProjectorFill  } from "react-icons/ri";
 import { MdMailOutline } from "react-icons/md";
@@ -24,6 +25,8 @@ const icons = {
     HiArrowLongRight,
     TbOval,
     HiOutlineCube,
+    HiCheck,
+    HiOutlineX,
     MdMailOutline,
     RiAccountCircleLine ,
     FaFacebook,
