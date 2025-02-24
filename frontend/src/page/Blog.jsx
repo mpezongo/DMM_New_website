@@ -36,8 +36,8 @@ const Blog = () => {
     return (
         <>
             <Navbar></Navbar>
-            <div className="mt-28 flex flex-col items-center">
-                <div className="w-full max-w-[1000px] h-auto p-6 bg-white mx-auto">
+            <div className="mt-32 flex flex-col items-center">
+                <div className="w-full max-w-[1200px] h-auto bg-white mx-auto">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800 mb-4 text-center border-b-4 border-blue-500 pb-2">
                         Actualités
                     </h2>

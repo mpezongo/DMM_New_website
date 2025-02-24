@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {fetchSections} from "../constant/articlesDataService";
+import Footer from "./footer";
+import Navbar from "./navbar";
 
 const ArticleDetail = () => {
     const { id } = useParams();
@@ -35,17 +37,21 @@ const ArticleDetail = () => {
     }
 
     return (
-        <div className="max-w-[800px] mx-auto p-6 bg-white shadow-md">
-            <button
-                onClick={() => navigate(-1)}
-                className="mb-4 px-4 py-2 bg-blue-500 text-white rounded"
-            >
-                Retour
-            </button>
-            <h1 className="text-3xl font-bold mb-4">{article.title}</h1>
-            <img src={article.image} alt={article.title} className="w-full h-auto mb-4" />
-            <p>{article.content}</p>
-        </div>
+        <>
+            <Navbar></Navbar>
+            <div className="max-w-[1000px] mt-32 mb-10 mx-auto p-6 bg-white shadow-md">
+                <button
+                    onClick={() => navigate(-1)}
+                    className="mb-4 px-4 py-2 bg-blue-500 text-white rounded"
+                >
+                    Retour
+                </button>
+                <h1 className="text-3xl font-bold mb-4">{article.title}</h1>
+                <img src={article.image} alt={article.title} className="w-full h-auto mb-4"/>
+                <p>{article.content}</p>
+            </div>
+            <Footer></Footer>
+        </>
     );
 };
 
