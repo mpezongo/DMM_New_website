@@ -5,6 +5,7 @@ import Blog from "./page/Blog";
 import ArticleDetail from "./component/ArticleDetail";
 import Offres from "./page/Offres";
 import Services from "./page/Services";
+import ServiceDetails from "./page/serviceDetails";
 
 function App() {
   const path = createBrowserRouter([
@@ -25,6 +26,10 @@ function App() {
     {
       path:'/services',
       element: <Services />
+    },
+    {
+      path:'/services/details',
+      element: <ServiceDetails />
     }
   ])
   return (
