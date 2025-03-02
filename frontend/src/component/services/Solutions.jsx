@@ -44,7 +44,7 @@ function Solutions() {
                             <img src={solution.imgUrl} alt="" className="w-24 h-16 object-cover" />
                             <div className="flex flex-col gap-2">
                                 <p>{solution.description}</p>
-                                <NavLink to="#" className="self-end text-primary">{solution.cta }</NavLink>
+                                <NavLink to="/services/details" className="self-end text-primary">{solution.cta }</NavLink>
                             </div>
                         </div>
                     )
