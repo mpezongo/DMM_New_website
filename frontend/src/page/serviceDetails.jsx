@@ -4,9 +4,7 @@ import Footer from "../component/footer";
 import images from "../constant/images"
 
 
-import Banner from "../component/services/Banner";
-import Solutions from "../component/services/Solutions";
-import Missions from "../component/services/Missions";
+
 
 function ServiceDetails() {
     return (
